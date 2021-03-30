@@ -1,6 +1,8 @@
 group: travis_latest
 
 language: python
+arch:
+ - ppc64le
 
 services:
   - docker
