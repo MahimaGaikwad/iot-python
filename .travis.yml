@@ -22,7 +22,7 @@ matrix:
     - python: "3.8"
       env: 
         - ONE_JOB_ONLY_TESTS=true
-	- BUILD_DOCKER_IMAGES=true
+        - BUILD_DOCKER_IMAGES=true
  
 env:
   - WIOTP_API_KEY=orgid-h798S7833DK
