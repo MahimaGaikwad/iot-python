@@ -27,8 +27,8 @@ matrix:
         - WIOTP_API_TOKEN=myauthtoken
  
 env:
-  - WIOTP_API_KEY=orgid-h798S7833DK
-  - WIOTP_API_TOKEN=myauthtoken       
+  - WIOTP_API_KEY=a-ef7dba-yoiqn7qwam
+  - WIOTP_API_TOKEN=ZeYmFKFmJFH*tk1F2N
 install: 
   - pip install tox-travis coveralls pyyaml
  
