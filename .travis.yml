@@ -23,9 +23,6 @@ matrix:
       env: 
         - ONE_JOB_ONLY_TESTS=true
         - BUILD_DOCKER_IMAGES=true
-        - WIOTP_API_KEY=orgid-h798S7833DK
-        - WIOTP_API_TOKEN=myauthtoken
- 
 env:
   - WIOTP_API_KEY=a-ef7dba-yoiqn7qwam
   - WIOTP_API_TOKEN=ZeYmFKFmJFH*tk1F2N
