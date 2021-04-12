@@ -23,13 +23,12 @@ matrix:
       env: 
         - ONE_JOB_ONLY_TESTS=true
         - BUILD_DOCKER_IMAGES=true
-env:
-  - WIOTP_API_KEY=a-ef7dba-yoiqn7qwam
-  - WIOTP_API_TOKEN=ZeYmFKFmJFH*tk1F2N
 install: 
   - pip install tox-travis coveralls pyyaml
  
 script: 
+  - export WIOTP_API_KEY=a-ef7dba-yoiqn7qwam
+  - export WIOTP_API_TOKEN=ZeYmFKFmJFH*tk1F2N
   - tox
   - ./buildDockerImages.sh
 
